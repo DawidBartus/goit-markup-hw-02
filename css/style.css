@@ -1,13 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   width: 1600px;
   height: 2349px;
-  margin: 0 auto;
 }
 header {
   width: 1600px;
   height: 80px;
-  display: flex;
+  align-items: center;
   background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 .logo-blue {
   color: #2196f3;
@@ -18,6 +25,38 @@ header {
   font-size: 26px;
   line-height: 35.96px;
   letter-spacing: 3%;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  margin-left: 215px;
+}
+.menu {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 2%;
+  width: 254px;
+  height: 16px;
+  display: flex;
+}
+.agencja {
+  margin-left: 93px;
+}
+.portfolio {
+  margin-left: 46px;
+  margin-right: 46px;
+}
+.kontakt {
+}
+.contact {
+  width: 295px;
+  height: 16px;
+  display: flex;
+}
+.tel {
+}
+.mail {
 }
 a {
   text-decoration: none;
@@ -25,3 +64,11 @@ a {
 li {
   list-style: none;
 }
+.main-part {
+  width: 1600px;
+  height: 600px;
+  background-color: #2f303a;
+  text-align: center;
+}
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
