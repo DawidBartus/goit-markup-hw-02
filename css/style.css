@@ -24,12 +24,15 @@ header {
 .menu a:hover {
   color: var(--company-color);
 }
+.focus:focus {
+  color: var(--company-color);
+}
 .logo {
   text-decoration: none;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 30.52px;
+  line-height: 1.19;
   color: #000000;
 }
 .logo-blue {
@@ -90,16 +93,20 @@ h1 {
   font-weight: 700;
   line-height: 1.14;
 }
-
 .description p {
   color: var(--grey-color);
 }
-.we-do {
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 .team {
   background-color: #f5f4fa;
 }
-.team ul {
+.team figure {
+  background-color: #ffffff;
 }
 .team figcaption {
   font-weight: 500;
