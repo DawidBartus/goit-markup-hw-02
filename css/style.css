@@ -3,72 +3,82 @@
   padding: 0;
 }
 body {
-  width: 1600px;
-  height: 2349px;
+  font-family: "Roboto", sans-serif;
+  color: #212121;
 }
 header {
-  width: 1600px;
-  height: 80px;
-  align-items: center;
-  background-color: blueviolet;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+}
+.menu a {
+  color: inherit;
+  text-decoration: none;
+  size: 14px;
+  line-height: 14.41px;
+  letter-spacing: 2%;
+  font-weight: 500;
+}
+.menu a:hover {
+  color: #2196f3;
+}
+.logo {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30.52px;
+  letter-spacing: 3%;
+  color: #000000;
 }
 .logo-blue {
   color: #2196f3;
 }
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 35.96px;
-  letter-spacing: 3%;
-  margin-top: 24px;
-  margin-bottom: 25px;
-  margin-left: 215px;
-}
-.menu {
-  padding-top: 24px;
-  padding-bottom: 25px;
-  font-size: 14px;
+.contact a {
+  text-decoration: none;
   font-weight: 500;
+  font-size: 14px;
   line-height: 16.41px;
   letter-spacing: 2%;
-  width: 254px;
-  height: 16px;
-  display: flex;
+  color: #757575;
 }
-.agencja {
-  margin-left: 93px;
+.contact a:hover {
+  color: #2196f3;
 }
-.portfolio {
-  margin-left: 46px;
-  margin-right: 46px;
-}
-.kontakt {
-}
-.contact {
-  width: 295px;
-  height: 16px;
-  display: flex;
-}
-.tel {
-}
-.mail {
-}
-a {
-  text-decoration: none;
-}
-li {
-  list-style: none;
-}
-.main-part {
+.main-header {
+  background-color: #2f303a;
   width: 1600px;
   height: 600px;
-  background-color: #2f303a;
-  text-align: center;
 }
-/* font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 6%;
+  text-align: center;
+  color: #ffffff;
+}
+button {
+  background-color: #2196f3;
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 6%;
+  text-align: center;
+  border: 0;
+  border-radius: 3px;
+}
+.description h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.41px;
+  letter-spacing: 3%;
+}
+
+.description p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  color: #757575;
+}
