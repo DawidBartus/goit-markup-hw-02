@@ -1,17 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
+
+/* Menu&footer */
 header {
 }
 .menu a {
   color: inherit;
   text-decoration: none;
-  size: 14px;
+  font-size: 14px;
   line-height: 14.41px;
   letter-spacing: 2%;
   font-weight: 500;
@@ -42,6 +40,32 @@ header {
 .contact a:hover {
   color: #2196f3;
 }
+footer {
+  width: 1600px;
+  height: 252px;
+  background-color: #2f303a;
+  color: #ffffff;
+}
+footer a {
+  text-decoration: none;
+  color: #ffffff99;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 3%;
+}
+footer ul a:hover {
+  color: #2196f3;
+}
+
+footer .logo {
+  color: #ffffff;
+}
+address {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 3%;
+}
+/* agencja */
 .main-header {
   background-color: #2f303a;
   width: 1600px;
@@ -55,7 +79,7 @@ h1 {
   text-align: center;
   color: #ffffff;
 }
-button {
+.order-button {
   background-color: #2196f3;
   width: 200px;
   height: 50px;
@@ -67,6 +91,7 @@ button {
   text-align: center;
   border: 0;
   border-radius: 3px;
+  cursor: pointer;
 }
 .description h3 {
   font-weight: 700;
@@ -81,4 +106,54 @@ button {
   line-height: 24px;
   letter-spacing: 3%;
   color: #757575;
+}
+.we-do {
+}
+.team {
+  background-color: #f5f4fa;
+  width: 1600px;
+  height: 648px;
+}
+.team ul {
+  display: flex;
+}
+.team figcaption {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.75px;
+  letter-spacing: 3%;
+}
+.team p:last-child {
+  color: #757575;
+  font-weight: 400;
+}
+/* portfolio */
+.portfolio button {
+  width: 121px;
+  height: 38px;
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 3%;
+  border: 0;
+  text-align: center;
+  cursor: pointer;
+}
+.portfolio button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+  border-radius: 3px;
+}
+.p-list p:first-child {
+  font-weight: 700px;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 6%;
+}
+.p-list p:last-child {
+  color: #757575;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 3%;
 }
