@@ -17,50 +17,58 @@
     <header>
       <nav>
         <a href="index.html" class="logo"
-          ><span class="logo-blue">Web</span>Studio</a
+          ><span class="logo__blue">Web</span>Studio</a
         >
         <ul class="menu list">
-          <li><a href="index.html" class="focus">Agencja</a></li>
-          <li><a href="portfolio.html" class="focus">Portfolio</a></li>
-          <li><a href="kontakt.html" class="focus">Kontakt</a></li>
+          <li><a href="index.html" class="menu__a">Agencja</a></li>
+          <li><a href="portfolio.html" class="menu__a">Portfolio</a></li>
+          <li><a href="kontakt.html" class="menu__a">Kontakt</a></li>
         </ul>
       </nav>
       <ul class="contact list">
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="header__contact__a"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+48111111111" class="header__contact__a"
+            >+48 111 111 111</a
+          >
+        </li>
       </ul>
     </header>
     <main>
-      <section class="main-section">
-        <h1 class="main-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button" class="order-button">Zamów usługe</button>
+      <section class="main__section">
+        <h1 class="main__header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button type="button" class="order__button">Zamów usługe</button>
       </section>
       <section class="description">
         <ul class="list">
           <li>
-            <h3 class="description-header">LOREM IPSUM</h3>
-            <p class="description-p">
+            <h3 class="description__header">LOREM IPSUM</h3>
+            <p class="description__p">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h3 class="description-header">LOREM IPSUM</h3>
-            <p class="description-p">
+            <h3 class="description__header">LOREM IPSUM</h3>
+            <p class="description__p">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h3 class="description-header">LOREM IPSUM</h3>
-            <p class="description-p">
+            <h3 class="description__header">LOREM IPSUM</h3>
+            <p class="description__p">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h3 class="description-header">LOREM IPSUM</h3>
-            <p class="description-p">
+            <h3 class="description__header">LOREM IPSUM</h3>
+            <p class="description__p">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
@@ -68,7 +76,7 @@
         </ul>
       </section>
       <section>
-        <h2 class="second-header">Czym się zajmujemy</h2>
+        <h2 class="second__header">Czym się zajmujemy</h2>
         <ul class="list">
           <li>
             <img
@@ -97,7 +105,7 @@
         </ul>
       </section>
       <section class="team">
-        <h2 class="second-header">Nasz zespół</h2>
+        <h2 class="second__header">Nasz zespół</h2>
         <ul class="list">
           <li>
             <figure>
@@ -107,9 +115,9 @@
                 width="260"
                 height="270"
               />
-              <figcaption class="team-figcaption">
+              <figcaption class="team__figcaption">
                 <p>John Doe</p>
-                <p class="team-second-p">Product Designer</p>
+                <p class="team__second__p">Product Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -121,9 +129,9 @@
                 width="260"
                 height="270"
               />
-              <figcaption class="team-figcaption">
+              <figcaption class="team__figcaption">
                 <p>John Doe</p>
-                <p class="team-second-p">Product Designer</p>
+                <p class="team__second__p">Product Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -135,9 +143,9 @@
                 width="260"
                 height="270"
               />
-              <figcaption class="team-figcaption">
+              <figcaption class="team__figcaption">
                 <p>John Doe</p>
-                <p class="team-second-p">Product Designer</p>
+                <p class="team__second__p">Product Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -149,21 +157,31 @@
                 width="260"
                 height="270"
               />
-              <figcaption class="team-figcaption">
+              <figcaption class="team__figcaption">
                 <p>John Doe</p>
-                <p class="team-second-p">Product Designer</p>
+                <p class="team__second__p">Product Designer</p>
               </figcaption>
             </figure>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="" class="logo"><span class="logo-blue">Web</span>Studio</a>
+    <footer class="footer__section">
+      <a href="" class="footer__logo"
+        ><span class="logo__blue">Web</span>Studio</a
+      >
       <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-      <ul class="list">
-        <li><a href="mailto:info@example.com">info@example.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+      <ul class="contact list">
+        <li>
+          <a href="mailto:info@example.com" class="footer__contact__a"
+            >info@example.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+48111111111" class="footer__contact__a"
+            >+48 111 111 111</a
+          >
+        </li>
       </ul>
     </footer>
   </body>
